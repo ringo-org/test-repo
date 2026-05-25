@@ -8,4 +8,8 @@ on:
 
 jobs:
   quality:
-    uses: ringo-org/test-action/.github/workflows/code-quality.yml@main
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run code quality action
+        uses: ringo-org/test-action@main
