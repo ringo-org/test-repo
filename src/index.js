@@ -12,4 +12,4 @@ export function formatTask(task) {
 
 const task = createTask("Review pull request", "high");
 
-console.log(formatTask(task));
+console.log(formatTask(task))
